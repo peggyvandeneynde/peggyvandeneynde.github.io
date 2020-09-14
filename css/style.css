@@ -45,6 +45,13 @@ strong{
 
 }
 
+hr.dotted-line {
+  border-top-width: 2px;
+  border-top-style: dotted;
+  border-top-color: #d21e46;
+  margin-top: 30px;
+}
+
 /*
 **************************
 PRELOADER
@@ -382,6 +389,14 @@ CONTENT
   color:#8db8d2;
   font-weight:900;
   line-height:48px;
+}
+
+.content .text-intro h2{
+  font-size:18px;
+  color:#d21e46;
+  margin-top: 30px;
+  font-weight:700;
+  line-height:22px;
 }
 
 .content .text-intro p{
