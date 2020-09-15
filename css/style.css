@@ -312,8 +312,8 @@ header li > a:hover{
   color:#000000;
 }
 
-header li > a #active{
-  color:#000000;
+header li > a:active{
+  color:#8db8d2;
 }
 
 header li ul{
