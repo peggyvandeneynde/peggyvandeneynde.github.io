@@ -28,12 +28,18 @@ p{
 
 a{
   text-decoration:none;
+  color: #8db8d2;
+  font-weight: 700;
   -webkit-transition: all 0.2s ease-in;
 	-moz-transition: all 0.2s ease-in;
 	-ms-transition: all 0.2s ease-in;
 	-o-transition: all 0.2s ease-in;
 	transition: all 0.2s ease-in;
-	border-bottom:1px solid #dedede;
+	/* border-bottom: 1px solid #8db8d2; */
+}
+
+i{
+  color: #8db8d2;
 }
 
 a:focus {
