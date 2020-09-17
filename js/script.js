@@ -34,8 +34,8 @@ Ajax link page transitions
         if (typeof history.pushState != 'undefined') history.pushState(data, 'Page', link);
 
           setTimeout(function(){
-          $('#preloader').delay(50).fadeIn(600);
-          $('html, body').delay(1000).animate({ scrollTop:  0  },1000);
+          $('#preloader').delay(25).fadeIn(300);
+          $('html, body').delay(500).animate({ scrollTop:  0  },500);
 
 					setTimeout(function(){
 
@@ -46,11 +46,11 @@ Ajax link page transitions
 							finished: function() {
 								Website();
 								backLoading();
-								$('.opacity-nav').delay(50).fadeOut(600);
+								$('.opacity-nav').delay(25).fadeOut(300);
               },
               waitForAll: true
 						});
-					},1000);
+					},500);
 					},0);
 			}
 		});
@@ -83,11 +83,11 @@ function Website() {
 		$('body').jKit();
 		backgroundmenu();
 		setTimeout(function(){
-			$(".preloader").fadeOut(500);
-		},2000);
+			$(".preloader").fadeOut(250);
+		},1000);
 		setTimeout(function(){
 			$('header').fadeIn();
-		},500);
+		},250);
 }
 
 
@@ -213,7 +213,7 @@ Open Check Scription
 function OpenCheck() {
     setTimeout(function() {
         hidePreloader();
-    }, 1000);
+    }, 500);
 }
 
 
@@ -237,7 +237,7 @@ function showPreloader() {
 }
 
 function hidePreloader() {
-  $(".preloader").delay(2000).fadeOut("slow");
+  $(".preloader").delay(1000).fadeOut("slow");
 }
 
 
